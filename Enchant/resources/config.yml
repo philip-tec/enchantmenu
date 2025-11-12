@@ -1,0 +1,58 @@
+# EnchantPlugin Configuration
+
+# Enchant Menu Settings
+menu:
+  title: "&5Enchant Menu"
+  
+  info:
+    title: "&5&lINFO"
+    lore:
+      - "&7I denne menu kan du"
+      - "&7enchante dine items."
+  
+  enchant-book:
+    title: "&5&l%enchantment%"
+    lore:
+      - "&7Klik her for at"
+      - "&7vælge denne enchant."
+      - ""
+      - "&7* Pris: &a$%price%"
+    lore-selected:
+      - "&7Klik her for at"
+      - "&7fjerne denne enchant."
+      - ""
+      - "&7* Pris: &a$%price%"
+  
+  enchant-button:
+    title: "&5ENCHANT"
+    lore-empty:
+      - "&7Ingen enchants valgt"
+    lore:
+      - "&7Klik her for at"
+      - "&7enchant dit item."
+      - ""
+      - "%enchants%"
+      - ""
+      - "&a* Pris: $%price%"
+    enchant-format: "&e- %enchantment%"
+
+
+messages:
+  no-item-held: "&cDu skal holde et item du vil enchante."
+  not-enough-money: "&cDu har ikke råd. Pris: $%price%"
+  economy-unavailable: "&cEconomy system er ikke tilgængeligt!"
+  enchant-success: "&7Du har enchanted din &e%item%&7!"
+
+
+launcher:
+  enabled: true
+  forward-multiplier: 2.5
+  upward-multiplier: 0.5
+  cooldown: 0
+  send-message: false
+  launch-message: "&7Whoosh!"
+  effects:
+    enabled: true
+    sound: true
+    sound-type: "ENDERDRAGON_WINGS"
+    particles: true

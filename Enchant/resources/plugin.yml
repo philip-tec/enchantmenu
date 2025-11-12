@@ -1,0 +1,17 @@
+name: EnchantPlugin
+version: 1.0
+main: me.enchant.EnchantPlugin
+author: byteJ
+depend: [Vault, Citizens]
+
+commands:
+  enchantreload:
+    description: Reload EnchantPlugin config
+    usage: /enchantreload
+    permission: enchant.reload
+    permission-message: "&cDu har ikke tilladelse til at bruge denne kommando."
+
+permissions:
+  enchant.reload:
+    description: Allows reloading the plugin config
+    default: op
