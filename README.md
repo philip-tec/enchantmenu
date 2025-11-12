@@ -20,7 +20,7 @@ EnchantMenu is a feature-rich Minecraft plugin that provides an intuitive GUI-ba
 - **Danish Localization** - Fully localized for Danish-speaking players
 - **Extensible Architecture** - Easy to add new enchantments and categories
 
-## 🛠️ Technical Details
+##  Technical Details
 
 **Built with:**
 - Java 8
@@ -34,11 +34,11 @@ EnchantMenu is a feature-rich Minecraft plugin that provides an intuitive GUI-ba
 - Economy transaction management
 - Material-based enchantment compatibility system
 
-## 📸 Preview
+##  Preview
 
 *Custom enchantment GUI with categorized menus, item descriptions, and pricing*
 
-## 🔧 Dependencies
+##  Dependencies
 
 - [Vault](https://www.spigotmc.org/resources/vault.34315/) (Required)
 - [Citizens](https://www.spigotmc.org/resources/citizens.13811/) (Optional)
